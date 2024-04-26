@@ -466,3 +466,7 @@ function popGift() {
     }, 1000);
 
 }
+
+function popPresent() {
+    document.getElementById("present").classList.remove("hidden");
+}
